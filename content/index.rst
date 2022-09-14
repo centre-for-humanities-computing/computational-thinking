@@ -20,15 +20,13 @@ Intro
 
 .. toctree::
    :maxdepth: 1
-   :caption: The lesson
+   :caption: Computational Thinking
 
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Reference
-
-   quick-reference
-   guide
+   lesson-1
+   lesson-2
+   lesson-3
+   lesson-4
+   lesson-5
 
 
 
