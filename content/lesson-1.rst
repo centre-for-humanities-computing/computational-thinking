@@ -1,8 +1,5 @@
-Lesson 1
-============
-
-Computational Thinking
-======================
+Lesson 1: What is computational thinking?
+==============================
 
 Being able to think is one of the hallmarks of being a human being -
 especially meta thinking which involves thinking about your own
@@ -71,7 +68,7 @@ that specific goal, but it’s rather to go through the process so that
 you learn the formula to achieve any goal.
 
 The four components of computational thinking
-=============================================
+---------------------------------------------
 
 1. Decomposition
 ----------------
@@ -92,29 +89,20 @@ don’t have any of the ingredients in your house. So there are two main
 tasks to solve: buy ingredients and make the coffee.
 
 There two tasks can be further broken down into even simpler tasks. When
-you buy ingredients, you need to do three things: 1) make of list of
-ingredients you need, 2) decide where you are going to buy them, and 3)
-decide how you are going to get there.
+you buy ingredients, you need to do three things: 
+    1. Make of list of ingredients you need.
+    2. Decide where you are going to buy them.
+    3. Cecide how you are going to get there.
 
-**Make a list of ingredients you need**
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. note::
+    **Make a list of ingredients you need**
+        - This can further be divided into separate tasks for each item that you need to buy. You will need milk, water, coffee powder, a kettle, a spoon and a mug.
 
-This can further be divided into separate tasks for each item that you
-need to buy. You will need milk, water, coffee powder, a kettle, a spoon
-and a mug.
+    **Decide where you are going to them**
+        - You can buy all of those items at the supermarket, so you decide to go there.
 
-**Decide where you are going to them**
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-You can buy all of those items at the supermarket, so you decide to go
-there.
-
-**Decide how you are going to get there**
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The fastest why to the supermarket is by bus, so you decide to take the
-bus. You also need to make the same trip home after you are done at the
-supermarket.
+    **Decide how you are going to get there**
+        - The fastest why to the supermarket is by bus, so you decide to take the bus. You also need to make the same trip home after you are done at the supermarket.
 
 2. Pattern recognition
 ----------------------
@@ -122,9 +110,11 @@ supermarket.
 When you have broken the problem down into smaller tasks, you can look
 for patterns. The first step (the list of ingredients) is made up of
 several smaller steps even though it looks like one step. The full step
-would actually be as follows: 1) Take the bus to the supermarket 2)
-Purchase the milk 3) Take the bus back home 4) Repeat the process for
-all the items
+would actually be as follows: 
+    1. Take the bus to the supermarket 
+    2. Purchase the milk 
+    3. Take the bus back home 
+    4. Repeat the process for all the items
 
 This isn’t an efficient way of doing this, so we can look for patterns
 in the tasks. The glaringly obvious pattern is that if we buy all the

@@ -1,7 +1,4 @@
-Lesson 3
-====================================
-
-A systematic way to approach computational tasks
+Lesson 3: A systematic way to approach computational tasks
 ================================================
 
 It might still be a bit difficult to find out where to start when
@@ -11,15 +8,17 @@ have three columns with the previously mentioned names: input,
 processing and output. Using an IPO table, we can outline the
 print(“Hello World!”) example from earlier.
 
-+-----------------+-------------------------------+--------------------+
-| Input           | Processing                    | Output             |
-+=================+===============================+====================+
-| Words the need  | We will use the print()       | “Hello world!” is  |
-| to be displayed | function.                     | displayed on the   |
-| on the screen,  |                               | screen             |
-| “Hello World!”  |                               |                    |
-| in this case.   |                               |                    |
-+-----------------+-------------------------------+--------------------+
+.. list-table::
+   :widths: 5 5 5
+   :header-rows: 1
+
+   * - Input
+     - Processing
+     - Output
+   * - Words that need to be displayed on the screen. "Hello World!" in this case.
+     - We will use the ``print()`` function.
+     - "Hello World!" is displayed on the screen.
+        
 
 This is a very simple example, but it’s a good way to breakdown what is
 required for the task at hand. In these kinds of simple examples it’s a
@@ -30,18 +29,38 @@ especially true when you have complex programs that rely on the output
 of one step to become the input of another one. For example, imagine you
 want to wash your clothes, so you create the following steps
 
-**Step 1 - Wash clothes** \| Input \| Processing \| Output \|
-\|——-|————|——–\| \|Clothes, washing liquid and washing machine\| Place
-clothes in washing machine and start washing \| Wet clothes\|
+.. list-table:: **Step 1 - Wash clothes**
+   :widths: 25 25 50
+   :header-rows: 1
 
-**Step 2 - Dry clothes** \| Input \| Processing \| Output \|
-\|——-|————|——–\| \| Wet clothes and dryer \| Place wet clothes in dryer,
-select dryer program and start the process \| Dry clothes
+   * - Input
+     - Processing
+     - Output
+   * - Clothes, washing liquid and washing machine
+     - Place clothes in washing machine and start washing
+     - Wet clothes
 
-**Step 3 - Fold clothes** \| Input \| Processing \| Output \|
-\|——-|————|——–\| \| Laundry basket and dry clothes \| For each item of
-clothing, remove it from the basket, fold it and packet away \| Folded
-clothes in the cupboard \|
+.. list-table:: **Step 2 - Dry clothes**
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Input
+     - Processing
+     - Output
+   * - Wet clothes and dryer
+     - Place wet clothes in dryer, select dryer program and start the process
+     - Dry clothes
+
+.. list-table:: **Step 3 - Fold clothes**
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Input
+     - Processing
+     - Output
+   * - Laundry basket and dry clothes
+     - For each item of clothing, remove it from the basket, fold it and packet away
+     - Folded clothes in the cupboard
 
 From the above explanation you can see the the output of step 1 and 2
 form the input of step 2 and 3 respectively. Step 3 also has laundry
@@ -80,25 +99,60 @@ text. However, you want to do this for 100 texts, but you don’t have
 time to do it manually. The following steps will help solve this
 problem.
 
-**Step 1** \| Input \| Processing \| Output \| \|——-|————|——–\| \|
-String \| Assign string to a variable \| variable \|
+.. list-table:: **Step 1**
+   :widths: 25 25 50
+   :header-rows: 1
 
-**Step 2** \| Input \| Processing \| Output \| \|——-|————|——–\| \|
-Variable \| Make a list of all the words in the variable by using
-split() \| List of words \|
+   * - Input
+     - Processing
+     - Output
+   * - String
+     - Assign string to a variable
+     - Variable
 
-**Step 3** \| Input \| Processing \| Output \| \|——-|————|——–\| \| List
-of words \| Count all the words \| List of words together with how many
-times they appear in the text (frequency) \|
+.. list-table:: **Step 2**
+   :widths: 25 25 50
+   :header-rows: 1
 
-**Step 4** \| Input \| Processing \| Output \| \|——-|————|——–\| \| List
-of words together with how many times they appear in the text
-(frequency) \| Sort the words from highest to lowest frequency \| Sorted
-list of words \|
+   * - Input
+     - Processing
+     - Output
+   * - Variable
+     - Make a list of all the words in the variable by using `split()`
+     - List of words
 
-**Step 5** \| Input \| Processing \| Output \| \|——-|————|——–\| \|
-Sorted list of words \| Print first 10 to the screen \| 10 most common
-words \|
+.. list-table:: **Step 3**
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Input
+     - Processing
+     - Output
+   * - List of words
+     - Count all the words
+     - List of words together with how many times they appear in the text (frequency)
+
+.. list-table:: **Step 4**
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Input
+     - Processing
+     - Output
+   * - List of words together with how many times they appear in the text
+     - Sort the words from highest to lowest frequency 
+     - Sorted list of words
+
+.. list-table:: **Step 5**
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Input
+     - Processing
+     - Output
+   * - Sorted list of words
+     - Print first 10 to the screen
+     - 10 most common words
 
 As you can see from the above steps, we have broken down the problem
 into 5 simple steps that need to be followed. The processing part of
@@ -118,19 +172,7 @@ again together with the answer for those who cannot progress, but the
 purpose of the exercise is to move step by step through the tasks and
 search for those parts you don’t understand.
 
-.. raw:: html
-
-   <details>
-
-.. raw:: html
-
-   <summary>
-
-Exercise 2 hint 1
-
-.. raw:: html
-
-   </summary>
+.. dropdown:: Exercise 2 hint 1
 
 If you are stuck on the first part of the exercise then there are a few
 steps that you can take to get started. First, you need to understand
@@ -179,222 +221,168 @@ understanding? Doing this when you get an explanation can still help you
 be better at independent thinking and finding answers for yourself -
 which is the basis of computational thinking.
 
-.. raw:: html
+.. dropdown:: Exercise 2 hint 2
 
-   </details>
+   Hopefully you have figured out how to assign text to a variable, but in
+   case you haven’t then it works as follows. Replace the three dots
+   ``...`` with whatever text you are using making sure there are no double
+   apostrophes in your text. Double apostrophes in Python indicate that
+   whatever you have between them is text, so if you have double
+   apostrophes then it will cut your text at that point and probably will
+   raise an error.
 
-.. raw:: html
+   ``sentence = "..."``
 
-   <details>
+   With your variable called ``sentence`` you now have a reference to the
+   text that you want to work with. We can take a look at the IPO table we
+   wrote down for step 2 and see what we need to do with this variable. We
+   need to get a list of words from the variable, so we need to think of
+   what that means practically. A word is an element of a sentence which -
+   in English at least - has the characteristic of a space before and after
+   the word (this is also referred to as a white space). So, if we can
+   isolate each individual word and add that to a list then we have a list
+   of all of the words. Luckily in Python there is a function called
+   ``split`` which takes a string, splits it at whichever character you
+   specify and returns a list. You need to assign it to a new variable
+   because if you split the sentence variable without assigning it then it
+   will just display the list, but not keep it in memory. Here is how you
+   can do this:
 
-.. raw:: html
+   ``sentence_words_list = sentence.split()``
 
-   <summary>
+   There default setting is to split it at each white space, but you can
+   change that to whichever character you want in case you want to split it
+   on a different character.
 
-Exercise 2 hint 2
+   ``sentence_words_list = sentence.split(".")`` (this splits it on each
+   full stop) ``sentence_words_list = sentence.split(". ")`` (this splits
+   it on each full stop followed by a white space)
 
-.. raw:: html
+   Splitting on a full stop followed by a white space is a very quick way
+   to split into sentences (although not very accurate, since it will miss
+   question marks, exclamation marks, etc). Very aware that when you
+   specify a character to split, it must be between apostrophes (double or
+   single). For this exercise, we only need the default setting of
+   splitting at the white space, since we need the individual words. After
+   doing this, we now have a list of words, but it won’t be perfect
+   i.e. there is still punctuation and capital letters. For now, we don’t
+   have to worry about that because we want to get everything working
+   before we evaluate the finer details. One part of writing code that is
+   beneficial is to build something as quick as possible then make changes
+   afterwards. The quick version of the code acts as a baseline, so you can
+   see when you make changes how those changes affect the overall results
+   of the program.
 
-   </summary>
+.. dropdown:: Exercise 2 hint 3
 
-Hopefully you have figured out how to assign text to a variable, but in
-case you haven’t then it works as follows. Replace the three dots
-``...`` with whatever text you are using making sure there are no double
-apostrophes in your text. Double apostrophes in Python indicate that
-whatever you have between them is text, so if you have double
-apostrophes then it will cut your text at that point and probably will
-raise an error.
+   Now that you have a list of words (let’s call it List A), you can count
+   how many times they each appear. I’m going to walk through the thought
+   process of doing this, but I’ll provide an easy way at the end, so read
+   the whole hint before trying any code. If you think of how this could be
+   done manually by a person then one way to do it is to make a new list
+   which we call List B. You would take the first word (let’s call it Word
+   1) from List A and write it in List B. Then you would look through each
+   word in List A and when you find Word 1, you add the number 1 next to
+   Word 1 which is written in List B. Repeat this for all the words and you
+   will have all the words written once in List B together with how many
+   times they appear in List A i.e. their frequency. Another way that you
+   could do this is to create the same two lists, but when you go through
+   List A, you can update List B with each word. This would mean writing
+   Word 1 in List B then move on to Word 2. Check if Word 2 is in List B.
+   If it is in List B then you add one to it’s count. If it’s not in List B
+   then you write it in List B with a count of 1. Repeat this until you get
+   to the end of List A. Both of these methods would work for counting the
+   words and there are probably other methods that you could figure out.
 
-``sentence = "..."``
+   However, we are not trying to get the quickest method for counting the
+   words or comparing different methods for counting words. We simply need
+   a way to count the words, so we can move on to the next step of our main
+   task. Like we discussed earlier, don’t get caught up in the finer
+   details and forget what the main goal is. The ideal situation would be a
+   single line of code that could count the words in a list and return that
+   as a list. After all, if someone has already done the work then it saves
+   us time and it prevents us from reinventing something that already
+   exists. Luckily for us, there is a module called ``collections`` that
+   has a function called ``Counter`` which does just what we are looking
+   for. Using the list we created in the previous exercise, we can count
+   the words in 1 line of code (after importing the module of course).
 
-With your variable called ``sentence`` you now have a reference to the
-text that you want to work with. We can take a look at the IPO table we
-wrote down for step 2 and see what we need to do with this variable. We
-need to get a list of words from the variable, so we need to think of
-what that means practically. A word is an element of a sentence which -
-in English at least - has the characteristic of a space before and after
-the word (this is also referred to as a white space). So, if we can
-isolate each individual word and add that to a list then we have a list
-of all of the words. Luckily in Python there is a function called
-``split`` which takes a string, splits it at whichever character you
-specify and returns a list. You need to assign it to a new variable
-because if you split the sentence variable without assigning it then it
-will just display the list, but not keep it in memory. Here is how you
-can do this:
+      from collection import Counter
+      sentence_words_list_counted = Counter(sentence_words_list)
 
-``sentence_words_list = sentence.split()``
+   Now there is a slight challenge here that you can try solve before
+   moving on to the next hint. ``sentence_words_list_counted`` is not
+   actually a list, but it’s a Counter object. How can you work with
+   Counter objects?
 
-There default setting is to split it at each white space, but you can
-change that to whichever character you want in case you want to split it
-on a different character.
+.. dropdown:: Exercise 2 hint 4 (solution)
 
-``sentence_words_list = sentence.split(".")`` (this splits it on each
-full stop) ``sentence_words_list = sentence.split(". ")`` (this splits
-it on each full stop followed by a white space)
+   At this point, if you’ve managed to do the exercise using the Counter
+   object then it’s quite simple to finish the rest of the steps and output
+   the top 10 words. All you need to do is is the following:
 
-Splitting on a full stop followed by a white space is a very quick way
-to split into sentences (although not very accurate, since it will miss
-question marks, exclamation marks, etc). Very aware that when you
-specify a character to split, it must be between apostrophes (double or
-single). For this exercise, we only need the default setting of
-splitting at the white space, since we need the individual words. After
-doing this, we now have a list of words, but it won’t be perfect
-i.e. there is still punctuation and capital letters. For now, we don’t
-have to worry about that because we want to get everything working
-before we evaluate the finer details. One part of writing code that is
-beneficial is to build something as quick as possible then make changes
-afterwards. The quick version of the code acts as a baseline, so you can
-see when you make changes how those changes affect the overall results
-of the program.
+   ``print(sentence_words_list_counted.most_common())``
 
-.. raw:: html
+   This will display the most common words together with their frequencies,
+   however, if we want to get only the 10 most frequent words then we can
+   simply specify that as an argument as follow. If you don’t know what an
+   argument is then search “what is an argument in Python?” and see if you
+   can figure out which part of the following code is the argument.
 
-   </details>
+   ``print(sentence_words_list_counted.most_common(10))``
 
-.. raw:: html
+   In case you couldn’t figure out what the argument was, it’s the 10 in
+   the above example. The argument in a Python function is whatever is
+   between the parentheses. For example, in the above case there are
+   actually two functions:
 
-   <details>
+   1. ``print()``
+   2. ``sentence_words_list_counted.most_common()``
 
-.. raw:: html
+   In the case print (function 1), the argument is
+   ``sentence_words_list_counted.most_common()`` (function 2) and the
+   argument of function 2 is 10. You can pass any whole number in function
+   2 as an argument as long as it’s smaller then the number of words in the
+   list. If we had to write what it’s doing into plain English is would be
+   as follows: ``most_common()`` displays all the words in
+   ``sentence_words_list_counted``, but as a list and not a Counter object.
+   If you add an argument (in this case 10) then it displays only the top
+   10.
 
-   <summary>
+   Using the Counter module is a quick and easy way to solve the problem,
+   but if we wanted to sort the list ourselves, how could we do that? We
+   know that ``sentence_words_list_counted.most_common()`` without any
+   arguments gives us the list of words with their frequencies. Let’s
+   create a new variable and assign that list to the new variable.
 
-Exercise 2 hint 3
+   ``top_10_words = sentence_words_list_counted.most_common()``
 
-.. raw:: html
+   ``top_10_words`` is a normal Python list that contains where each
+   element is a tuple (if you don’t know what a tuple is then search “what
+   is a tuple in Python?” to find out). The first part of the tuple is the
+   word and the second part of the tuple is the frequency of the word. If
+   we take a step back and think about sorting again, there are a few ways
+   we could sort a list like this: by the frequencies, alphabetically by
+   the words, and we can do that from biggest to smallest (descending) or
+   some smallest to biggest (ascending) order. The following code will
+   display the list sorted in alphabetical order.
 
-   </summary>
+   ``print(sorted(top_10_words, lambda x: x[0]))``
 
-Now that you have a list of words (let’s call it List A), you can count
-how many times they each appear. I’m going to walk through the thought
-process of doing this, but I’ll provide an easy way at the end, so read
-the whole hint before trying any code. If you think of how this could be
-done manually by a person then one way to do it is to make a new list
-which we call List B. You would take the first word (let’s call it Word
-1) from List A and write it in List B. Then you would look through each
-word in List A and when you find Word 1, you add the number 1 next to
-Word 1 which is written in List B. Repeat this for all the words and you
-will have all the words written once in List B together with how many
-times they appear in List A i.e. their frequency. Another way that you
-could do this is to create the same two lists, but when you go through
-List A, you can update List B with each word. This would mean writing
-Word 1 in List B then move on to Word 2. Check if Word 2 is in List B.
-If it is in List B then you add one to it’s count. If it’s not in List B
-then you write it in List B with a count of 1. Repeat this until you get
-to the end of List A. Both of these methods would work for counting the
-words and there are probably other methods that you could figure out.
+   The next code will sort and display the code in reverse alphabetical
+   order
 
-However, we are not trying to get the quickest method for counting the
-words or comparing different methods for counting words. We simply need
-a way to count the words, so we can move on to the next step of our main
-task. Like we discussed earlier, don’t get caught up in the finer
-details and forget what the main goal is. The ideal situation would be a
-single line of code that could count the words in a list and return that
-as a list. After all, if someone has already done the work then it saves
-us time and it prevents us from reinventing something that already
-exists. Luckily for us, there is a module called ``collections`` that
-has a function called ``Counter`` which does just what we are looking
-for. Using the list we created in the previous exercise, we can count
-the words in 1 line of code (after importing the module of course).
+   ``print(sorted(top_10_words, lambda x: x[0], reverse=True))``
 
-::
+   So, we have the following results: 1. Sorted from biggest to smallest by
+   frequency: ``print(sorted(top_10_words, lambda x: x[0]))`` 2. Sorted
+   from smallest to biggest by frequency: ? 3. Sorted alphabetically:
+   ``print(sorted(top_10_words, lambda x: x[0]))`` 4. Sorted reverse
+   alphabetically:
+   ``print(sorted(top_10_words, lambda x: x[0], reverse=True))``
 
-   from collection import Counter
-   sentence_words_list_counted = Counter(sentence_words_list)
-
-Now there is a slight challenge here that you can try solve before
-moving on to the next hint. ``sentence_words_list_counted`` is not
-actually a list, but it’s a Counter object. How can you work with
-Counter objects?
-
-.. raw:: html
-
-   </details>
-
-.. raw:: html
-
-   <details>
-
-.. raw:: html
-
-   <summary>
-
-Exercise 2 hint 4 (solution)
-
-.. raw:: html
-
-   </summary>
-
-At this point, if you’ve managed to do the exercise using the Counter
-object then it’s quite simple to finish the rest of the steps and output
-the top 10 words. All you need to do is is the following:
-
-``print(sentence_words_list_counted.most_common())``
-
-This will display the most common words together with their frequencies,
-however, if we want to get only the 10 most frequent words then we can
-simply specify that as an argument as follow. If you don’t know what an
-argument is then search “what is an argument in Python?” and see if you
-can figure out which part of the following code is the argument.
-
-``print(sentence_words_list_counted.most_common(10))``
-
-In case you couldn’t figure out what the argument was, it’s the 10 in
-the above example. The argument in a Python function is whatever is
-between the parentheses. For example, in the above case there are
-actually two functions:
-
-1. ``print()``
-2. ``sentence_words_list_counted.most_common()``
-
-In the case print (function 1), the argument is
-``sentence_words_list_counted.most_common()`` (function 2) and the
-argument of function 2 is 10. You can pass any whole number in function
-2 as an argument as long as it’s smaller then the number of words in the
-list. If we had to write what it’s doing into plain English is would be
-as follows: ``most_common()`` displays all the words in
-``sentence_words_list_counted``, but as a list and not a Counter object.
-If you add an argument (in this case 10) then it displays only the top
-10.
-
-Using the Counter module is a quick and easy way to solve the problem,
-but if we wanted to sort the list ourselves, how could we do that? We
-know that ``sentence_words_list_counted.most_common()`` without any
-arguments gives us the list of words with their frequencies. Let’s
-create a new variable and assign that list to the new variable.
-
-``top_10_words = sentence_words_list_counted.most_common()``
-
-``top_10_words`` is a normal Python list that contains where each
-element is a tuple (if you don’t know what a tuple is then search “what
-is a tuple in Python?” to find out). The first part of the tuple is the
-word and the second part of the tuple is the frequency of the word. If
-we take a step back and think about sorting again, there are a few ways
-we could sort a list like this: by the frequencies, alphabetically by
-the words, and we can do that from biggest to smallest (descending) or
-some smallest to biggest (ascending) order. The following code will
-display the list sorted in alphabetical order.
-
-``print(sorted(top_10_words, lambda x: x[0]))``
-
-The next code will sort and display the code in reverse alphabetical
-order
-
-``print(sorted(top_10_words, lambda x: x[0], reverse=True))``
-
-So, we have the following results: 1. Sorted from biggest to smallest by
-frequency: ``print(sorted(top_10_words, lambda x: x[0]))`` 2. Sorted
-from smallest to biggest by frequency: ? 3. Sorted alphabetically:
-``print(sorted(top_10_words, lambda x: x[0]))`` 4. Sorted reverse
-alphabetically:
-``print(sorted(top_10_words, lambda x: x[0], reverse=True))``
-
-Can you figure out number 2 (sorted from smallest to biggest by
-frequency)?
-
-.. raw:: html
-
-   </details>
+   Can you figure out number 2 (sorted from smallest to biggest by
+   frequency)?
 
 Exercise 2 review
 ~~~~~~~~~~~~~~~~~
@@ -435,7 +423,3 @@ things you don’t understand without the need for someone to explain it
 to you. A lot of the time you will have someone to help you or explain
 it to you, but in the cases where you don’t have that person, you need
 to be at least come up with an idea to find the answer.
-
-.. raw:: html
-
-   </details>

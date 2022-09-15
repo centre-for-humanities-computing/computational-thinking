@@ -1,21 +1,14 @@
-LESSON NAME
+Computational Thinking
 ===========
 
-Intro
+The purpose of CT Code Camps is to enable students to enrich their subject-matter knowledge with digital tools and computational technologies. The main focus will be to understand how to convert real-world problems into computational problems. The skills learned from coding will then provided ways to solve those problems.
 
 
 
 .. prereq::
+   Prerequisites
 
-   prerequisites
-
-
-
-.. csv-table::
-   :widths: auto
-   :delim: ;
-
-   20 min ; :doc:`filename`
+   There are no prerequisites for this course. 
 
 
 .. toctree::

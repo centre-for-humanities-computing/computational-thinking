@@ -4,3 +4,5 @@ sphinx_book_theme
 sphinx_rtd_theme_ext_color_contrast
 myst_nb
 sphinx-lesson
+sphinx-design
+https://github.com/coderefinery/sphinx-coderefinery-branding/archive/master.zip
