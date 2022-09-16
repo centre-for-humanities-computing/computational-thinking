@@ -1,8 +1,5 @@
-Lesson 4
-===================
-
-How are real world problems solved?
-===================================
+Lesson 4: How are real world problems solved?
+=============================================
 
 You are probably still confused as to what’s going on and that’s okay.
 Problem solving and programming are all about organizing unclear
@@ -65,17 +62,38 @@ Reading the contents of a file
 We will start with the IPO tables to break the problem down into smaller
 steps that we can solve easier.
 
-**Step 1** \| Input \| Processing \| Output \| \|——-|————|——–\| \| File
-\| Find the path to where the file is stored on your computer \|
-Filepath (string) \|
+.. list-table:: **Step 1**
+   :widths: 25 25 50
+   :header-rows: 1
 
-**Step 2** \| Input \| Processing \| Output \| \|——-|————|——–\| \|
-Filepath (string) \| Load the file by using the filepath \| Contents of
-the file \|
+   * - Input
+     - Processing
+     - Output
+   * - File
+     - Find the path to where the file is stored on your computer
+     - Filepath (string)
 
-**Step 3** \| Input \| Processing \| Output \| \|——-|————|——–\| \|
-Contents of the file \| Assign the contents of the file to a Python
-variable \| Variable that contains the contents of the file (string) \|
+.. list-table:: **Step 2**
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Input
+     - Processing
+     - Output
+   * - Filepath (string)
+     - Load the file by using the filepath
+     - Contents of the file
+
+.. list-table:: **Step 3**
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Input
+     - Processing
+     - Output
+   * - Contents of the file
+     - Assign the contents of the file to a Python variable
+     - Variable that contains the contents of the file (string)
 
 In only 3 steps we can describe how to load the contents of a file into
 a variable in Python. By assigning the contents to a variable we now
