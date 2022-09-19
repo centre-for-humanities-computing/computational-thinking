@@ -53,8 +53,8 @@ decisions in programming.
 Decisions in programming
 ------------------------
 
-Up until now, we haven’t discussed anything directly related to writing
-designing a program. This has been intentional because the exercise in
+Up until now, we haven’t discussed anything directly related to writing a program. 
+This has been intentional because the exercise in
 this section is going to address that. Programming is actually better
 described as problem solving and using the four components of
 computational thinking is a guide on how to do that. So, you actually

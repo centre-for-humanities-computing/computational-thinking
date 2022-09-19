@@ -174,52 +174,52 @@ search for those parts you don’t understand.
 
 .. dropdown:: Exercise 2 hint 1
 
-If you are stuck on the first part of the exercise then there are a few
-steps that you can take to get started. First, you need to understand
-what everything means in the sentence (number 1). The three words that
-might prove to be a problem are “assign”, “string” and “variable”. In
-Python assign means placing the known value of something (in this case a
-body of text which is also called a string) into a variable. The
-variable is a word that you create which contains the value of whatever
-you assigned to it (in this case the string). Consider the following
-examples:
+  If you are stuck on the first part of the exercise then there are a few
+  steps that you can take to get started. First, you need to understand
+  what everything means in the sentence (number 1). The three words that
+  might prove to be a problem are “assign”, “string” and “variable”. In
+  Python assign means placing the known value of something (in this case a
+  body of text which is also called a string) into a variable. The
+  variable is a word that you create which contains the value of whatever
+  you assigned to it (in this case the string). Consider the following
+  examples:
 
-``"This is a test sentence"`` (This is a text or in Python a string)
+  ``"This is a test sentence"`` (This is a text or in Python a string)
 
-``sentence`` (This is a variable name - currently this variable has no
-value)
+  ``sentence`` (This is a variable name - currently this variable has no
+  value)
 
-``sentence = "This is a test sentence"`` (This is assigning a string to
-the variable)
+  ``sentence = "This is a test sentence"`` (This is assigning a string to
+  the variable)
 
-If we go back to the print(“Hello world!”) exercise from before, we can
-use the same structure (pattern recognition), but change it a little bit
-to prince out the variable. So, we can write ``print(sentence)`` and
-this will display the string ``"This is a test sentence"`` which is the
-value of the variable. If you remember from previous lessons, we
-mentioned that it’s always important to understand why you are doing
-something. So, in this case why is it important to assign the value of
-the string to the variable? Why can’t we just use the string itself? In
-these simple examples, it may not be clear, but if we have an entire
-paragraph of text then it’s easier to work with a single word that
-refers to that text instead of working with the text every time. This
-reduces the chances for mistakes and it is also easier to understand
-what is happening in the code you are writing. One of the ultimate goals
-of writing code is to be able to be able to look at it a few years from
-now and still understand what the intention is of the code.
+  If we go back to the print(“Hello world!”) exercise from before, we can
+  use the same structure (pattern recognition), but change it a little bit
+  to prince out the variable. So, we can write ``print(sentence)`` and
+  this will display the string ``"This is a test sentence"`` which is the
+  value of the variable. If you remember from previous lessons, we
+  mentioned that it’s always important to understand why you are doing
+  something. So, in this case why is it important to assign the value of
+  the string to the variable? Why can’t we just use the string itself? In
+  these simple examples, it may not be clear, but if we have an entire
+  paragraph of text then it’s easier to work with a single word that
+  refers to that text instead of working with the text every time. This
+  reduces the chances for mistakes and it is also easier to understand
+  what is happening in the code you are writing. One of the ultimate goals
+  of writing code is to be able to be able to look at it a few years from
+  now and still understand what the intention is of the code.
 
-If you weren’t able to figure out the first sentence on your own and the
-above explanation helped you to understand then there is a small
-exercise that you can do. Since the purpose of this course is to develop
-independent thinking, the real goal isn’t to explain the concepts to
-you, but rather to point them out so you can find out what they mean. In
-the above case, there is a step-by-step explanation, but you can still
-develop independent thinking by looking for verification of this
-information. If you search these words do you find the same
-explanations? Are the explanations that I gave accurate to your
-understanding? Doing this when you get an explanation can still help you
-be better at independent thinking and finding answers for yourself -
-which is the basis of computational thinking.
+  If you weren’t able to figure out the first sentence on your own and the
+  above explanation helped you to understand then there is a small
+  exercise that you can do. Since the purpose of this course is to develop
+  independent thinking, the real goal isn’t to explain the concepts to
+  you, but rather to point them out so you can find out what they mean. In
+  the above case, there is a step-by-step explanation, but you can still
+  develop independent thinking by looking for verification of this
+  information. If you search these words do you find the same
+  explanations? Are the explanations that I gave accurate to your
+  understanding? Doing this when you get an explanation can still help you
+  be better at independent thinking and finding answers for yourself -
+  which is the basis of computational thinking.
 
 .. dropdown:: Exercise 2 hint 2
 

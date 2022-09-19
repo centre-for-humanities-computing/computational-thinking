@@ -17,7 +17,7 @@ The purpose of CT Code Camps is to enable students to enrich their subject-matte
 
    lesson-1
    lesson-2
-   lesson-3
+   lesson-3 
    lesson-4
    lesson-5
 
@@ -27,25 +27,8 @@ The purpose of CT Code Camps is to enable students to enrich their subject-matte
 
 Who is the course for?
 ----------------------
-
-
-
-
+This courses is aimed at people who want to build a solid foundation in learning how to solve complex problems. 
 
 About the course
 ----------------
-
-
-
-
-
-
-See also
---------
-
-
-
-
-
-Credits
--------
+The course deals with being able to take real world problems, convert them into smaller problems and use the power of computers to solve those problems. 
