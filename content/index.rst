@@ -10,6 +10,12 @@ The purpose of CT Code Camps is to enable students to enrich their subject-matte
 
    There are no prerequisites for this course. 
 
+.. note::
+   
+   Join the Slack channel: https://chcaa-friends.slack.com/archives/C042XSCLAAE
+   
+   Any questions or comments you can email me at: 201902475@post.au.dk
+
 
 .. toctree::
    :maxdepth: 1

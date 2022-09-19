@@ -29,8 +29,14 @@ be overwhelming, but when you follow a few simple steps, you are able to
 break them down into manageable pieces. This is very effective because
 not only does it work for computational problems, but it also works for
 most problems you will face in life. There are four key steps in this
-process: 1) decomposition, 2) pattern recognition, 3) abstraction and 4)
-algorithmic thinking. Using these four components, you will be able to
+process: 
+
+1. Decomposition
+2. Pattern recognition
+3. Abstraction
+4. Algorithmic thinking
+
+Using these four components, you will be able to
 successfully solve problems by “dividing and conquering” them. There are
 also some additional factors that need to be considered that are not
 directly related to the core way of solving the problem - constraints.
@@ -41,14 +47,14 @@ four components as well as how to deal with constraints and what you can
 do to mitigate the effects of them.
 
 Another point that is important to understand involves the following
-three words: what, why and how. It is always important to understand
-what you are doing because if you don’t understand that then you cannot
+three words: *what*, *why* and *how*. It is always important to understand
+*what* you are doing because if you don’t understand that then you cannot
 reorientate yourself when you face problems in your project. In the same
-way, you need to understand why you are doing something. Keeping a goal
+way, you need to understand *why* you are doing something. Keeping a goal
 in mind when you break down a problem into smaller pieces will keep you
 focused on the big picture even when you are working on the smaller
-issues. This is vital for lose losing sight of what your final goal is.
-Lastly, having a clear understanding of how you are going to do
+issues. This is vital for not losing sight of what your final goal is.
+Lastly, having a clear understanding of *how* you are going to do
 something will put an element of realism to a project and reveal any
 potential unrealistic expectations right in the beginning. These are
 three important components to keep in mind when you are working on any
@@ -96,109 +102,58 @@ you buy ingredients, you need to do three things:
 
 .. note::
     **Make a list of ingredients you need**
-        - This can further be divided into separate tasks for each item that you need to buy. You will need milk, water, coffee powder, a kettle, a spoon and a mug.
+        - This can further be divided into separate tasks for each item that you need to buy. 
+        - You will need: 
+            - milk 
+            - water 
+            - coffee powder
+            - a kettle 
+            - a spoon 
+            - a mug
 
     **Decide where you are going to them**
         - You can buy all of those items at the supermarket, so you decide to go there.
 
     **Decide how you are going to get there**
-        - The fastest why to the supermarket is by bus, so you decide to take the bus. You also need to make the same trip home after you are done at the supermarket.
+        - The fastest why to the supermarket is by bus, so you decide to take the bus. 
+        - You also need to make the same trip home after you are done at the supermarket.
 
 2. Pattern recognition
 ----------------------
 
 When you have broken the problem down into smaller tasks, you can look
 for patterns. The first step (the list of ingredients) is made up of
-several smaller steps even though it looks like one step. The full step
-would actually be as follows: 
-    1. Take the bus to the supermarket 
-    2. Purchase the milk 
-    3. Take the bus back home 
-    4. Repeat the process for all the items
+several smaller steps even though it looks like one step. 
 
-This isn’t an efficient way of doing this, so we can look for patterns
-in the tasks. The glaringly obvious pattern is that if we buy all the
-items at the supermarket then we only have to make one trip to the
-supermarket and one trip back home. This is process of pattern
-recognition is very useful in using previous knowledge to apply to new
-problems. For example, perhaps you are going to a new supermarket
-because your regular supermarket is closed for the day. You don’t need
-to go through the entire process of planning everything out because you
-can use the same pattern as usual, but adjusting a few key points. You
-would have to take a different bus and walk an extra few meters to get
-to the new supermarket, but buying the ticket, purchasing the items
-inside the supermarket and returning home is still the same process. You
-have recognized a pattern that you can use for other problems which have
-similar characteristics.
+.. note::
+    The full step would actually be as follows: 
+        1. Take the bus to the supermarket 
+        2. Purchase the milk 
+        3. Take the bus back home 
+        4. Repeat the process for all the items
+
+This isn’t an efficient way of doing this, so we can look for patterns in the tasks. The glaringly obvious pattern is that if we buy all the items at once then we only have to make one trip to the supermarket and one trip back home. This is the process of pattern recognition which is very useful in using previous knowledge to apply to new problems. For example, perhaps you are going to a new supermarket because your regular supermarket is closed for the day. You don’t need to go through the entire process of planning everything out because you can use the same pattern as usual, but adjusting a few key points. You would have to take a different bus and walk an extra few meters to get to the new supermarket, but buying the ticket, purchasing the items inside the supermarket and returning home is still the same process. You have recognized a pattern that you can use for other problems which have similar characteristics.
 
 3. Abstraction
 --------------
-
-The process of abstraction is to discard unnecessary details that are
-not relevant to solving the problem. You shouldn’t, in face you cannot,
-take everything into account when making a decision, so you filter out
-any unnecessary details and focus on what is relevant to the problem you
-are solving. In the above example, you take the bus to get to the
-supermarket. Is it important that you know every stop on the way to the
-bus stop? No. Is it important that you know the model of the bus you are
-taking? No. Is it important that you know the bus drivers name?
-No. These are all factors that could be relevant to someone else if they
-have task that involves those details. For example, if you are a bus
-driver and you need to change shifts with a bus driver named John then
-it’s important to know the name of the bus driver. So, it’s not
-necessarily the case that the details are not important, but rather that
-there are details that are not important to your own task.
+The process of abstraction is to discard unnecessary details that are not relevant to solving the problem. You cannot take everything into account when making a decision, so you filter out any unnecessary details and focus on what is relevant to the problem you are solving. In the above example, you take the bus to get to the supermarket. Is it important that you know every stop on the way to the bus stop? No. Is it important that you know the model of the bus you are taking? No. Is it important that you know the bus drivers name? No. These are all factors that could be relevant to someone else if they have a task that involves those details. For example, if you are a bus driver and you need to change shifts with a bus driver named John then it’s important to know the name of the bus driver. So, it’s not necessarily the case that the details are not important, but rather that there are details that are not important to your own task.
 
 4. Algorithmic thinking
 -----------------------
 
-When you have decomposed the problem, identified any patterns and
-filtered out the unnecessary details, you are ready to create a
-step-by-step guide on how to solve the actual problems. At this point
-you need to make detailed plans for each step. You have to specify
-actions in the right order and with sufficient detail, so you can’t just
-say “take the bus to the supermarket and come back when you’re done”.
-You need to specify the smaller details such as the time you need to
-catch the bus, where you need to catch the bus and which number bus you
-need to catch. Then you need to specify where to get off, which
-direction to take towards the supermarket and how to long walk from the
-bus stop. Once you’re in the supermarket, you need to find all the
-items, collect them in a basket and pay for them. Then you repeat the
-bus process in reverse order making sure to take the bus from the
-opposite side of the street.
+When you have decomposed the problem, identified any patterns and filtered out the unnecessary details, you are ready to create a step-by-step guide on how to solve the actual problems. At this point you need to make detailed plans for each step. You have to specify actions in the right order and with sufficient detail, so you can’t just say “take the bus to the supermarket and come back when you’re done”. You need to specify the smaller details such as the time you need to catch the bus, where you need to catch the bus and which number bus you need to catch. Then you need to specify where to get off, which direction to take towards the supermarket and how to long walk from the bus stop. Once you’re in the supermarket, you need to find all the items, collect them in a basket and pay for them. Then you repeat the bus process in reverse order making sure to take the bus from the opposite side of the street.
 
 The relevance of the four components
 --------------------------------------
 
-The importance of the four components is to focus your thinking on the
-details of the problem, remove any inferences you might have and
-realistically show what kind of problem you are dealing with. This may
-seem a bit strange with the coffee example, but what is important isn’t
-the example itself, but rather the way in which it was broken down and
-solved. This forms a blueprint for solving problems and you can use this
-blueprint to solve other problems. After doing a simple example, you can
-scale up the complexity of the problems until you are able to this for
-any problem you face. However, there are other factors to take into
-account because after all, the world we live in isn’t a static place, so
-things often change.
+The importance of the four components is to focus your thinking on the details of the problem, remove any inferences you might have and realistically show what kind of problem you are dealing with. This may seem a bit strange with the first example about coffee. What is important, however, isn’t the example itself, but rather the way in which it was broken down and solved. This forms a blueprint for solving problems and you can use this blueprint to solve other problems. After doing a simple example, you can scale up the complexity of the problems until you are able to this for any problem you face. However, there are other factors to take into account because after all, the world we live in isn’t a static place, so things often change.
 
 Constraints
 --------------
 
-There are often things that change along the way, so it’s important to
-understand that most of the time you will have to work within some
-constraints because you hardly ever have the ideal conditions for
-carrying out your plan. For example if the supermarket doesn’t have any
-coffee in stock then what is the solution for that? You could buy tea
-instead or buy some takeout coffee from the restaurant next door. These
-aren’t optimal solutions, but they are alternatives to the constraints
-that you may face in the real world. What if you find out that the buses
-have changed their payment systems and now you need to pay with a
-transit card. The only problem is that you’ve never used a transit card
-before, so you need to figure out how it works. In this case, the
-decomposition of your plan is still valid, but you need to adjust the
-algorithmic thinking portion of the four components. You would need to
-prioritize getting a bus transit card and loading it with money before
-going to the bus stop. This would form a new tasks which takes a higher
-priority to the other tasks since you cannot complete any of the other
-tasks without first getting the bus transit card.
+There are often things that change along the way, so it’s important to understand that most of the time you will have to work within some constraints because you hardly ever have the ideal conditions for carrying out your plan. For example if the supermarket doesn’t have any coffee in stock then what is the solution for that? You could buy tea instead or buy some takeout coffee from the restaurant next door. These aren’t optimal solutions, but they are alternatives due to the constraints that you may face in the real world. What if you find out that the busses have changed their payment systems and now you need to pay with a transit card. The only problem is that you’ve never used a transit card before, so you need to figure out how that works. In this case, the decomposition of your plan is still valid, but you need to adjust the algorithmic thinking portion of the four components. You would need to prioritize getting a bus transit card and loading it with money before going to the bus stop. This would form a new tasks which takes a higher priority to the other tasks since you cannot complete any of the other tasks without first getting the bus transit card.
+
+.. note::
+    **Something to think about**
+    
+    In your own life think back to a time when you had a problem that seemed overwhelming. How did you manage to solve it at the end of the day? Using the four components of computational thinking described above, could you have created a better plan to solve that problem that seemed so overwhelming before? 
