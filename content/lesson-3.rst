@@ -4,7 +4,6 @@ Lesson 3: A systematic way to approach computational tasks
 It might still be a bit difficult to find out where to start when solving a problem, so there is a useful tool that you can use called an IPO (input, processing and output) table. It’s a simple table where you have three columns with the previously mentioned names: input, processing and output. Using an IPO table, we can outline the print(“Hello World!”) example from earlier.
 
 .. list-table::
-   :widths: 5 5 5
    :header-rows: 1
 
    * - Input
@@ -18,7 +17,6 @@ It might still be a bit difficult to find out where to start when solving a prob
 This is a very simple example, but it’s a good way to break down what is required for the task at hand. In these kinds of simple examples it’s a little tricky to understand why this would be useful, but in more complex examples it is very useful to understand exactly what is being passed as input into the program and what you expect as output. This is especially true when you have complex programs that rely on the output of one step to become the input of another one. For example, imagine you want to wash your clothes, so you create the following steps
 
 .. list-table:: **Step 1 - Wash clothes**
-   :widths: 25 25 50
    :header-rows: 1
 
    * - Input
@@ -29,7 +27,6 @@ This is a very simple example, but it’s a good way to break down what is requi
      - Wet clothes
 
 .. list-table:: **Step 2 - Dry clothes**
-   :widths: 25 25 50
    :header-rows: 1
 
    * - Input
@@ -40,7 +37,6 @@ This is a very simple example, but it’s a good way to break down what is requi
      - Dry clothes
 
 .. list-table:: **Step 3 - Fold clothes**
-   :widths: 25 25 50
    :header-rows: 1
 
    * - Input
@@ -58,7 +54,6 @@ Exercise 2
 Using IPO tables you can easily breakdown a problem into its different logical steps. In the previous exercise, we’ve learned the simple solution of printing something to the screen. In this exercise we’re going to get a bit more complicated, but if you follow the steps laid out in the beginning (decomposition, pattern recognition, abstraction and algorithmic thinking) together with IPO tables, you should have at least some idea of what to do for the next exercise. We discussed that it’s important to understand why you are doing a task to help you keep focused on the ultimate goal. However, this is difficult when doing exercises because the exercise itself has no purpose other than doing it. So for the sake of of the exercise, I will provide a **why** to your task. Let’s image you want to find the 10 most common words in a certain string (in Python text data is called a string). You need to do this because you are looking for the most common words in a string to make reading it easier for second language learners. Writing down the 10 most common words beside the text with their translation will give second language learners a kick start in understanding the main topic of the text. However, you want to do this for 100 texts, but you don’t have time to do it manually. The following steps will help solve this problem.
 
 .. list-table:: **Step 1**
-   :widths: 25 25 50
    :header-rows: 1
 
    * - Input
@@ -69,7 +64,6 @@ Using IPO tables you can easily breakdown a problem into its different logical s
      - Variable
 
 .. list-table:: **Step 2**
-   :widths: 25 25 50
    :header-rows: 1
 
    * - Input
@@ -80,7 +74,6 @@ Using IPO tables you can easily breakdown a problem into its different logical s
      - List of words
 
 .. list-table:: **Step 3**
-   :widths: 25 25 50
    :header-rows: 1
 
    * - Input
@@ -91,7 +84,6 @@ Using IPO tables you can easily breakdown a problem into its different logical s
      - List of words together with how many times they appear in the text (frequency)
 
 .. list-table:: **Step 4**
-   :widths: 25 25 50
    :header-rows: 1
 
    * - Input
@@ -102,7 +94,6 @@ Using IPO tables you can easily breakdown a problem into its different logical s
      - Sorted list of words
 
 .. list-table:: **Step 5**
-   :widths: 25 25 50
    :header-rows: 1
 
    * - Input
