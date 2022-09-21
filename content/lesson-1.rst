@@ -1,5 +1,5 @@
 Lesson 1: What is computational thinking?
-==============================
+=========================================
 
 Being able to think is one of the hallmarks of being a human being -
 especially meta thinking which involves thinking about your own

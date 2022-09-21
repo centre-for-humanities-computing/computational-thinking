@@ -1,5 +1,5 @@
 Lesson 3: A systematic way to approach computational tasks
-================================================
+==========================================================
 
 It might still be a bit difficult to find out where to start when solving a problem, so there is a useful tool that you can use called an IPO (input, processing and output) table. It’s a simple table where you have three columns with the previously mentioned names: input, processing and output. Using an IPO table, we can outline the print(“Hello World!”) example from earlier.
 
