@@ -100,7 +100,8 @@ you buy ingredients, you need to do three things:
     2. Decide where you are going to buy them.
     3. Cecide how you are going to get there.
 
-.. note::
+.. instructor-note::
+
     **Make a list of ingredients you need**
         - This can further be divided into separate tasks for each item that you need to buy. 
         - You will need: 
@@ -125,7 +126,8 @@ When you have broken the problem down into smaller tasks, you can look
 for patterns. The first step (the list of ingredients) is made up of
 several smaller steps even though it looks like one step. 
 
-.. note::
+.. instructor-note::
+
     The full step would actually be as follows: 
         1. Take the bus to the supermarket 
         2. Purchase the milk 
@@ -153,7 +155,9 @@ Constraints
 
 There are often things that change along the way, so it’s important to understand that most of the time you will have to work within some constraints because you hardly ever have the ideal conditions for carrying out your plan. For example if the supermarket doesn’t have any coffee in stock then what is the solution for that? You could buy tea instead or buy some takeout coffee from the restaurant next door. These aren’t optimal solutions, but they are alternatives due to the constraints that you may face in the real world. What if you find out that the busses have changed their payment systems and now you need to pay with a transit card. The only problem is that you’ve never used a transit card before, so you need to figure out how that works. In this case, the decomposition of your plan is still valid, but you need to adjust the algorithmic thinking portion of the four components. You would need to prioritize getting a bus transit card and loading it with money before going to the bus stop. This would form a new tasks which takes a higher priority to the other tasks since you cannot complete any of the other tasks without first getting the bus transit card.
 
-.. note::
+.. discussion::
     **Something to think about**
     
-    In your own life think back to a time when you had a problem that seemed overwhelming. How did you manage to solve it at the end of the day? Using the four components of computational thinking described above, could you have created a better plan to solve that problem that seemed so overwhelming before? 
+    In your own life think back to a time when you had a problem that seemed overwhelming. How did you manage to solve it at the end of the day? 
+    
+    Using the four components of computational thinking described above, could you have created a better plan to solve that problem that seemed so overwhelming before? 

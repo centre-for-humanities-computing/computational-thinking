@@ -15,7 +15,6 @@ I want to open a file that I have on my computer so that I can use the contents 
 We will start with the IPO tables to break the problem down into smaller steps that we can solve easier.
 
 .. list-table:: **Step 1**
-   :widths: 25 25 50
    :header-rows: 1
 
    * - Input
@@ -26,7 +25,6 @@ We will start with the IPO tables to break the problem down into smaller steps t
      - Filepath (string)
 
 .. list-table:: **Step 2**
-   :widths: 25 25 50
    :header-rows: 1
 
    * - Input
@@ -37,7 +35,6 @@ We will start with the IPO tables to break the problem down into smaller steps t
      - Contents of the file
 
 .. list-table:: **Step 3**
-   :widths: 25 25 50
    :header-rows: 1
 
    * - Input
