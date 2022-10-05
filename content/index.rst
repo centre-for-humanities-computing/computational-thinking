@@ -11,9 +11,7 @@ The purpose of CT Code Camps is to enable students to enrich their subject-matte
 
 .. note::
    
-   Join the Slack channel: https://chcaa-friends.slack.com/archives/C042XSCLAAE
-   
-   Any questions or comments you can email me at: 201902475@post.au.dk
+   Join the Slack channel by sending an email to 201902475@post.au.dk or you can send questions or comments as well.
 
 
 .. toctree::
