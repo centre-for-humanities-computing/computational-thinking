@@ -11,7 +11,8 @@ The purpose of CT Code Camps is to enable students to enrich their subject-matte
 
 .. note::
    
-   Join the Slack channel by sending an email to 201902475@post.au.dk or you can send questions or comments as well.
+   Join the Facebook group by clicking on the following link: `Computational Thinking https://www.facebook.com/groups/410505771167961`_
+   If you have any problems then email me at 201902475@post.au.dk
 
 
 .. toctree::
