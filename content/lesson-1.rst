@@ -150,6 +150,12 @@ The relevance of the four components
 
 The importance of the four components is to focus your thinking on the details of the problem, remove any inferences you might have and realistically show what kind of problem you are dealing with. This may seem a bit strange with the first example about coffee. What is important, however, isn’t the example itself, but rather the way in which it was broken down and solved. This forms a blueprint for solving problems and you can use this blueprint to solve other problems. After doing a simple example, you can scale up the complexity of the problems until you are able to this for any problem you face. However, there are other factors to take into account because after all, the world we live in isn’t a static place, so things often change.
 
+A note on the difference between decomposition and algorithmic thinking
+-----------------------------------------------------------------------
+While creating a step-by-step plan can be seen as a form of decomposition, it's important to note that decomposition is a broader concept that encompasses the identification of major components or subproblems. Algorithmic thinking is a more detailed and specific step that involves designing the precise instructions or actions to solve those subproblems. Both steps are crucial in computational thinking as they contribute to breaking down complex problems and devising effective solutions.
+
+You can think of this using the following analogy: if you were to organize a trip overseas then you would break the problem down into a few smaller parts i.e. travel to destination, book into accomodation, organize a few external trips, finish trip and book out, travel back home. This is a broad overview of the solution which is how the decomposition step works. When you are on the algorithmic thinking step, you take each of those smaller parts and create a plan to solve them. Take for example the first part "travel to destination": decide which mode of transport (boat, car, train or air travel), then decide on the dates and time of departure, etc. At this stage, you should be breaking each part down into very specific and actionable solutions.
+
 Constraints
 --------------
 
